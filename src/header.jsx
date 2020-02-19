@@ -79,7 +79,7 @@ function Header() {
                 </ul>
             </nav>
             {/* Texte milieu header */}
-            <div className="d-flex justify-content-center text-center w-100 h-100">
+            <div className="d-flex justify-content-center flex-column text-center w-100 h-100">
                 <div className="titre">
                     <h2 className="text-light mb-4">Welcome!</h2>
                     {/* <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" /> */}
@@ -91,7 +91,11 @@ function Header() {
                         <a className="fab fa-linkedin-in fa-lg text-white mx-2 hoverLink"></a>
                     </div>
                 </div>
-
+                <a href="./section1.jsx"> 
+                    <div id="arrow-down">
+                        <i className="fas fa-angle-down fa-4x text-white mt-5"></i>
+                    </div>
+                </a>
             </div>
         </header>
     )
