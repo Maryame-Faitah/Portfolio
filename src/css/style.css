@@ -127,6 +127,14 @@ section .aboutMe .btn:hover {
   background-size: 100% 100%;
 }
 
+.card-img {
+  height: 580px;
+}
+
+.logo {
+  color: #8686da;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
