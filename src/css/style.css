@@ -68,6 +68,15 @@ header div #arrow-down i:hover {
   transition: 0.3s ease-in-out;
 }
 
+section .underline {
+  background-image: linear-gradient(120deg, #c3c3d6 0%, #7d7de7 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
 section .aboutMe {
   margin: 0 auto;
 }
@@ -103,6 +112,19 @@ section .aboutMe .btn {
 
 section .aboutMe .btn:hover {
   background-color: #8686da;
+}
+
+.h6Anim {
+  background-image: linear-gradient(120deg, #c3c3d6 0%, #7d7de7 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
+.h6Anim:hover {
+  background-size: 100% 100%;
 }
 
 /*!

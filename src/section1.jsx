@@ -3,6 +3,7 @@ import React from 'react';
 function Section1() {
     return (
         <section>
+            <h1 className="text-center mt-5">Who <span className="underline font-weight-bold">I am</span> </h1>
             <div className="aboutMe my-5 w-75">
                 <div className="row no-gutters">
                     <div className="col-md-6">
@@ -36,28 +37,12 @@ function Section1() {
                             <div className="progress mb-3">
                                 <div className="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                             </div>
-                            <a className="btn btn-sm font-weight-bold text-white mt-4"href="./img/imgSect1.jpg" download="Maryame_CV">Download my CV</a>
+                            <a className="btn font-weight-bold text-white mt-4"href="./img/imgSect1.jpg" download="Maryame_CV">Download my CV</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        // <div className="container">
-        //     <div className="row">
-        //         <div className="col-6 h-100 w-100">
-        //             <img src="./../img/girlcoder.jpg" alt="" />
-        //         </div>
-        //         <div className="col-6">
-        //             <h5>I'm Maryame Faitah</h5>
-        //             <h3>I'm Web Designer - Web Developer - Coder - Programmer</h3>
-        //             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        //                 Iure atque itaque, fuga ad repellat nesciunt, distinctio
-        //                 eum maiores odio nisi quia voluptas eos voluptatum!
-        //             Odio inventore beatae recusandae quod sint.</p>
-        //         </div>
-        //     </div>
-        // </div> 
     )
 }
 

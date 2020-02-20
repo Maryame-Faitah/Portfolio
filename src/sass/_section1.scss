@@ -1,4 +1,11 @@
 section{
+    .underline {
+        background-image: linear-gradient(120deg, rgb(195, 195, 214) 0%, rgb(125, 125, 231) 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: 0 88%;
+        transition: background-size 0.25s ease-in;
+    }
     .aboutMe{
         margin: 0 auto;
         iframe{
