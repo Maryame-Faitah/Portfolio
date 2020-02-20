@@ -1,8 +1,8 @@
 section{
     .aboutMe{
         margin: 0 auto;
-        .card-img{
-            height:500px;
+        iframe{
+            height:550px;
         }
         .card-body {
             h4{
@@ -20,6 +20,13 @@ section{
         }
         .w-82{
             width: 82%;
+        }
+        .btn{
+            border-radius: 30px;
+            background-color: rgba(134, 134, 218, 0.63);
+        }
+        .btn:hover{
+            background-color: rgb(134, 134, 218);
         }
         
     }

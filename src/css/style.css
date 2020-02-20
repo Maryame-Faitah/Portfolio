@@ -72,8 +72,8 @@ section .aboutMe {
   margin: 0 auto;
 }
 
-section .aboutMe .card-img {
-  height: 500px;
+section .aboutMe iframe {
+  height: 550px;
 }
 
 section .aboutMe .card-body h4 {
@@ -94,6 +94,15 @@ section .aboutMe .w-88 {
 
 section .aboutMe .w-82 {
   width: 82%;
+}
+
+section .aboutMe .btn {
+  border-radius: 30px;
+  background-color: rgba(134, 134, 218, 0.63);
+}
+
+section .aboutMe .btn:hover {
+  background-color: #8686da;
 }
 
 /*!
