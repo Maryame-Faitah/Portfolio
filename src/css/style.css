@@ -1,5 +1,5 @@
 header {
-  background-image: url("../img/codeur.jpg");
+  background-image: url("./../img/codeur.jpg");
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -66,6 +66,34 @@ header div #arrow-down i:hover {
   opacity: 0.7;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+
+section .aboutMe {
+  margin: 0 auto;
+}
+
+section .aboutMe .card-img {
+  height: 500px;
+}
+
+section .aboutMe .card-body h4 {
+  color: #8686da;
+}
+
+section .aboutMe .progress-bar {
+  background-color: #8686da;
+}
+
+section .aboutMe .w-95 {
+  width: 95%;
+}
+
+section .aboutMe .w-88 {
+  width: 88%;
+}
+
+section .aboutMe .w-82 {
+  width: 82%;
 }
 
 /*!

@@ -1,0 +1,26 @@
+section{
+    .aboutMe{
+        margin: 0 auto;
+        .card-img{
+            height:500px;
+        }
+        .card-body {
+            h4{
+                color: rgb(134, 134, 218);
+            }
+        }
+        .progress-bar{
+            background-color: rgb(134, 134, 218);
+        }
+        .w-95{
+            width: 95%;
+        }
+        .w-88{
+            width: 88%;
+        }
+        .w-82{
+            width: 82%;
+        }
+        
+    }
+}
