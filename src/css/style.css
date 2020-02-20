@@ -107,11 +107,11 @@ section .aboutMe .w-82 {
 
 section .aboutMe .btn {
   border-radius: 30px;
-  background-color: rgba(134, 134, 218, 0.63);
+  background-color: #8686da;
 }
 
 section .aboutMe .btn:hover {
-  background-color: #8686da;
+  background-color: rgba(134, 134, 218, 0.63);
 }
 
 .h6Anim {
@@ -133,6 +133,44 @@ section .aboutMe .btn:hover {
 
 .logo {
   color: #8686da;
+}
+
+.divAnim {
+  background-image: linear-gradient(120deg, #c3c3d6 0%, #7d7de7 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 88%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
+.divAnim:hover {
+  background-size: 100% 100%;
+}
+
+#btnFiltres {
+  border-radius: 30px;
+  background-color: #8686da;
+}
+
+#btnFiltres:hover {
+  background-color: rgba(134, 134, 218, 0.63);
+}
+
+.divLogoContact {
+  background-color: #8686da;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*!

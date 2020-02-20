@@ -13,16 +13,11 @@ function Section3() {
                         <div className="card-body">
                             <h4>Highly Creative Solutions</h4>
                             <h3 className="font-weight-bold">The best creativity is the result of good work habits.</h3>
-                            {/* <p className="text-secondary"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Iure atque itaque, fuga ad repellat nesciunt, distinctio
-                                eum maiores odio nisi quia voluptas eos voluptatum!
-                                Odio inventore beatae recusandae quod sint.
-                            </p> */}
                             <div className="container">
                                 <div className="row">
                                     <div className="col">
                                         <div className="">
-                                            <div className="card-body">
+                                            <div className="card-body divAnim">
                                                 <i className="logo fas fa-barcode fa-2x"></i>
                                                 <h5 className="card-title font-weight-bold">Design</h5>
                                                 <p className="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -31,7 +26,7 @@ function Section3() {
                                     </div>
                                     <div className="col">
                                         <div className="">
-                                            <div className="card-body">
+                                            <div className="card-body divAnim">
                                                 <i className="logo fas fa-laptop-code fa-2x"></i>
                                                 <h5 className="card-title font-weight-bold">Responsive</h5>
                                                 <p className="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -41,7 +36,7 @@ function Section3() {
                                     <div className="w-100"></div>
                                     <div className="col">
                                         <div className="">
-                                            <div className="card-body">
+                                            <div className="card-body divAnim">
                                                 <i className="logo fab fa-modx fa-2x"></i>
                                                 <h5 className="card-title font-weight-bold">Creativity</h5>
                                                 <p className="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -50,7 +45,7 @@ function Section3() {
                                     </div>
                                     <div className="col">
                                         <div className="">
-                                            <div className="card-body">
+                                            <div className="card-body divAnim">
                                                 <i className="logo fas fa-tasks fa-2x"></i>
                                                 <h5 className="card-title font-weight-bold">Management</h5>
                                                 <p className="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
