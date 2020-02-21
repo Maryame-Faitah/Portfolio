@@ -158,6 +158,10 @@ section .aboutMe .btn:hover {
 }
 
 .divLogoContact {
+  margin: 0 auto;
+}
+
+.divLogoContact .iconesContact {
   background-color: #8686da;
   border-radius: 100%;
   width: 60px;
@@ -171,6 +175,30 @@ section .aboutMe .btn:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.divLogoContact .iconesContact:hover {
+  background-color: rgba(134, 134, 218, 0.63);
+}
+
+.divLogoContact .iContact1, .divLogoContact .iContact3 {
+  margin-left: 40%;
+}
+
+.divLogoContact .iContact2 {
+  margin-left: 42%;
+}
+
+form {
+  margin: 0 auto;
+}
+
+form .btnSubmit {
+  background-color: #8686da;
+}
+
+form .btnSubmit:hover {
+  background-color: rgba(134, 134, 218, 0.63);
 }
 
 /*!

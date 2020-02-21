@@ -1,11 +1,32 @@
 .divLogoContact{
-    background-color: rgb(134, 134, 218);
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    margin:0 auto;
+    .iconesContact{
+        background-color: rgb(134, 134, 218);
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconesContact:hover{
+        background-color: rgba(134, 134, 218, 0.63);
+    }
+    .iContact1,.iContact3{
+        margin-left:40%;
+    }
+    .iContact2{
+        margin-left:42%;
+    }
 }
+form{
+    margin:0 auto;
+    .btnSubmit{
+        background-color: rgb(134, 134, 218);
+    }
+    .btnSubmit:hover{
+        background-color: rgba(134, 134, 218, 0.63);
+    }
+}
+
 
