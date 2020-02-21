@@ -19,7 +19,7 @@ header div {
 
 header div .titre .hoverLink:hover {
   text-decoration: none;
-  color: #089db8 !important;
+  color: #8686da !important;
 }
 
 @-webkit-keyframes jump {
@@ -148,12 +148,12 @@ section .aboutMe .btn:hover {
   background-size: 100% 100%;
 }
 
-#btnFiltres {
+.btnFiltres #btnAll, .btnFiltres #btnIllustrator, .btnFiltres #btnPhotoshop {
   border-radius: 30px;
   background-color: #8686da;
 }
 
-#btnFiltres:hover {
+.btnFiltres #btnAll:hover, .btnFiltres #btnIllustrator:hover, .btnFiltres #btnPhotoshop:hover {
   background-color: rgba(134, 134, 218, 0.63);
 }
 
@@ -199,6 +199,20 @@ form .btnSubmit {
 
 form .btnSubmit:hover {
   background-color: rgba(134, 134, 218, 0.63);
+}
+
+footer {
+  background-color: #8686da;
+}
+
+footer .divFooter {
+  padding: 5%;
+}
+
+footer .divFooter .hoverIcones:hover {
+  background-color: #c7c7cf;
+  width: 30px;
+  height: 30px;
 }
 
 /*!

@@ -28,7 +28,7 @@ function Section5() {
                     </div>
                 </div>
             </div>
-            <form className="w-50 mt-4">
+            <form className="w-50 mt-5">
                 <div className="form-group row">
                     <div className="col">
                         <input type="text" className="form-control" placeholder="First name" />
@@ -46,7 +46,7 @@ function Section5() {
                 <div className="mb-3">
                     <textarea className="form-control" id="validationTextarea" placeholder="Message"></textarea>
                 </div>
-                <button type="submit" className="btn btnSubmit text-white rounded-pill">Submit</button>
+                <button type="submit" className="btn btnSubmit text-white rounded-pill mt-3">Submit</button>
             </form>
         </section >
     )
