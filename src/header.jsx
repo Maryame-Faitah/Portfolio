@@ -83,7 +83,7 @@ function Header() {
                 <div className="titre">
                     <h2 className="text-light mb-4">Welcome!</h2>
                     {/* <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" /> */}
-                    <h1 className="text-light mb-4">I am <span className="txt-rotate" data-period="2000" data-rotate='[ "a coder.", "a developer.", "a programmer.", "a designer.", "Maryame Faitah!" ]'></span>
+                    <h1 className="text-light mb-4">I am <span className="txt-rotate" data-period="2000" data-rotate='[ "a coder.", "a developer.", "a programmer.", "Maryame Faitah!" ]'></span>
                     </h1>
                     <div className="icones">
                         <a className="fab fa-facebook-f fa-lg text-white mx-2 hoverLink"></a>

@@ -7,15 +7,15 @@ function Section1() {
             <div className="aboutMe my-5 w-75">
                 <div className="row no-gutters">
                     <div className="col-md-6">
-                        {/* <img src="./img/imgSect1.jpg" className="card-img" alt="..." /> */}
-                        <iframe width="450" height="500" src="https://www.youtube.com/embed/fOJ-KKtzDXI"
+                        <img src="./img/imgSect1.jpg" className="card-img" alt="..." />
+                        {/* <iframe width="450" height="500" src="https://www.youtube.com/embed/fOJ-KKtzDXI"
                             frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
-                        </iframe>
+                        </iframe> */}
                     </div>
                     <div className="col-md-6">
                         <div className="card-body">
                             <h4>I'm Maryame Faitah</h4>
-                            <h3 className="font-weight-bold">I'm Web Designer - Web Developer - Coder - Programmer</h3>
+                            <h3 className="font-weight-bold">I'm Web Developer - Coder - Programmer</h3>
                             <p className="text-secondary"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Iure atque itaque, fuga ad repellat nesciunt, distinctio
                                 eum maiores odio nisi quia voluptas eos voluptatum!
@@ -29,7 +29,7 @@ function Section1() {
                             <div className="progress mb-3">
                                 <div className="progress-bar w-88" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">88%</div>
                             </div>
-                            <h6 className="font-weight-bold">Branding</h6>
+                            <h6 className="font-weight-bold">Communication</h6>
                             <div className="progress mb-3">
                                 <div className="progress-bar w-82" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">82%</div>
                             </div>

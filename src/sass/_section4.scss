@@ -1,10 +1,9 @@
 .btnFiltres{
-    
     #btnAll,#btnIllustrator,#btnPhotoshop{
         border-radius: 30px;
-        background-color: rgb(134, 134, 218);
+        background-color: $primary;
         &:hover{
-            background-color: rgba(134, 134, 218, 0.63);
+            background-color: $secondary;
         }
     }
 }

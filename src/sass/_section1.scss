@@ -13,11 +13,11 @@ section{
         }
         .card-body {
             h4{
-                color: rgb(134, 134, 218);
+                color: $primary;
             }
         }
         .progress-bar{
-            background-color: rgb(134, 134, 218);
+            background-color: $primary;
         }
         .w-95{
             width: 95%;
@@ -30,7 +30,7 @@ section{
         }
         .btn{
             border-radius: 30px;
-            background-color: rgb(134, 134, 218);
+            background-color: $primary;
         }
         .btn:hover{
             background-color: rgba(134, 134, 218, 0.63);

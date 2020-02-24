@@ -17,7 +17,7 @@ header {
       .hoverLink {
         &:hover {
           text-decoration: none;
-          color: rgb(134, 134, 218) !important;
+          color: $primary !important;
         }
       }
     }

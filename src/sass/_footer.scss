@@ -1,11 +1,6 @@
 footer{
-    background-color: rgb(134, 134, 218);
+    background-color: $primary;
     .divFooter{
         padding:5%;
-        .hoverIcones:hover{
-            background-color: rgb(199, 199, 207);
-            width:30px;
-            height:30px;
-        }
     }
 }

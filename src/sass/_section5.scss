@@ -1,7 +1,7 @@
 .divLogoContact{
     margin:0 auto;
     .iconesContact{
-        background-color: rgb(134, 134, 218);
+        background-color: $primary;
         border-radius: 100%;
         width: 60px;
         height: 60px;
@@ -22,7 +22,7 @@
 form{
     margin:0 auto;
     .btnSubmit{
-        background-color: rgb(134, 134, 218);
+        background-color: $primary;
     }
     .btnSubmit:hover{
         background-color: rgba(134, 134, 218, 0.63);

@@ -7,7 +7,8 @@ import Section4 from './section4.jsx';
 import Section5 from './section5.jsx';
 import Footer from './footer.jsx';
 import './App.css';
-import './../node_modules/@fortawesome/fontawesome-free/js/all.js'
+import './../node_modules/jquery/dist/jquery.js';
+import './../node_modules/@fortawesome/fontawesome-free/js/all.js';
 import './css/style.css';
 
 function App() {
