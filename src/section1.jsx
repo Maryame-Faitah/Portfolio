@@ -2,7 +2,7 @@ import React from 'react';
 
 function Section1() {
     return (
-        <section>
+        <section id="section1">
             <h1 className="text-center mt-5">Who <span className="underline font-weight-bold">I am</span> </h1>
             <div className="aboutMe my-5 w-75">
                 <div className="row no-gutters">

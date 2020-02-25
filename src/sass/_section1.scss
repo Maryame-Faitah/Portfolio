@@ -1,8 +1,8 @@
 section{
     .underline {
-        background-image: linear-gradient(120deg, rgb(195, 195, 214) 0%, rgb(125, 125, 231) 100%);
+        background-image: linear-gradient(120deg,rgba(237, 162, 242, 0.404) 0%, rgba(237, 162, 242, 0.404) 100%);
         background-repeat: no-repeat;
-        background-size: 100% 0.2em;
+        background-size: 100% 0.35em;
         background-position: 0 88%;
         transition: background-size 0.25s ease-in;
     }

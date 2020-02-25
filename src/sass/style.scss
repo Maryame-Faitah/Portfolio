@@ -1,5 +1,6 @@
 //Variables
-$primary: rgb(134, 134, 218);
+// $primary: rgb(134, 134, 218);
+$primary: #441544;
 $secondary: rgba(134, 134, 218, 0.63);
 $tertiary: white;
 $quartenary: grey;
@@ -13,3 +14,4 @@ $quartenary: grey;
 @import './section5.scss';
 @import './footer.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+

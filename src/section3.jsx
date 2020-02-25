@@ -2,17 +2,16 @@ import React from 'react';
 
 function Section3() {
     return (
-        <section>
+        <section id="section3">
             <h1 className="text-center mt-5">My <span className="underline font-weight-bold">Services</span> </h1>
             <div className="aboutMe my-5">
                 <div className="row no-gutters">
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                         <img src="./img/imgSect1.jpg" className="card-img" alt="..." />
-                    </div>
-                    <div className="col-md-6">
+                    </div> */}
+                    <div className="col">
+                        <h3 className="font-weight-bold text-center">The best creativity is the result of good work habits.</h3>
                         <div className="card-body">
-                            <h4>What I Offer?</h4>
-                            <h3 className="font-weight-bold">The best creativity is the result of good work habits.</h3>
                             <div className="container">
                                 <div className="row">
                                     <div className="col">

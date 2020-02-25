@@ -71,7 +71,7 @@ function Section4() {
     // }
 
     return (
-        <section>
+        <section id="section4">
             <h1 className="text-center my-5">My <span className="underline font-weight-bold">Projects</span> </h1>
             <div className="btnFiltres text-center mb-5">
                 <button type="button" id="btnAll" className="btn text-white mx-2 rounded-pill" onClick={() => fct1()}>All</button>
@@ -105,7 +105,7 @@ function Section4() {
                     <div className="col-md-4 col-12 box-item illustrator">
                         <div className="image">
                             <a href="https://www.google.com">
-                                <img src="./img/noir-blanc1.jpeg" alt="" className="w-100" />
+                                <img src="./img/illustrator.png" alt="" className="w-100" />
                                 <div className="overlay"> </div>
                             </a>
                         </div>
@@ -113,7 +113,7 @@ function Section4() {
                     <div className="col-md-4 col-12 box-item illustrator">
                         <div className="image">
                             <a href="https://www.google.com">
-                                <img src="./img/noir-blanc2.jpeg" alt="" className="w-100" />
+                                <img src="./img/illustrator.png" alt="" className="w-100" />
                                 <div className="overlay"> </div>
                             </a>
                         </div>
@@ -121,7 +121,7 @@ function Section4() {
                     <div className="col-md-4 col-12 box-item photoshop">
                         <div className="image">
                             <a href="https://www.google.com">
-                                <img src="./img/noir-blanc3.jpeg" alt="" className="w-100" />
+                                <img src="./img/photoshop.png" alt="" className="w-100" />
                                 <div className="overlay"> </div>
                             </a>
                         </div>
@@ -131,7 +131,7 @@ function Section4() {
                     <div className="col-md-4 col-12 box-item illustrator">
                         <div className="image">
                             <a href="https://www.google.com">
-                                <img src="./img/noir-blanc4.jpeg" alt="" className="w-100" />
+                                <img src="./img/illustrator.png" alt="" className="w-100" />
                                 <div className="overlay"> </div>
                             </a>
                         </div>
@@ -139,7 +139,7 @@ function Section4() {
                     <div className="col-md-4 col-12 box-item photoshop">
                         <div className="image">
                             <a href="https://www.google.com">
-                                <img src="./img/noir-blanc5.jpeg" alt="" className="w-100" />
+                                <img src="./img/photoshop.png" alt="" className="w-100" />
                                 <div className="overlay"> </div>
                             </a>
                         </div>
@@ -147,7 +147,7 @@ function Section4() {
                     <div className="col-md-4 col-12 box-item photoshop">
                         <div className="image">
                             <a href="https://www.google.com">
-                                <img src="./img/noir-blanc6.jpeg" alt="" className="w-100" />
+                                <img src="./img/photoshop.png" alt="" className="w-100" />
                                 <div className="overlay"> </div>
                             </a>
                         </div>

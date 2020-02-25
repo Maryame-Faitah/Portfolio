@@ -58,7 +58,7 @@ function Header() {
                 <a className="navbar-brand font-weight-bold text-light" href="#header">
                     <img src="" width="30"
                         height="30" className="d-inline-block align-top" alt="" />
-                    Maryame
+                    Maryame .
                 </a>
                 <ul className="nav">
                     <li className="nav-item">
@@ -68,7 +68,7 @@ function Header() {
                         <a className="nav-link text-light" href="#section1">About me</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-light" href="#section2">Skills</a>
+                        <a className="nav-link text-light" href="#section2">Services</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-light" href="#section3">Projects</a>
@@ -81,7 +81,7 @@ function Header() {
             {/* Texte milieu header */}
             <div className="d-flex justify-content-center flex-column text-center w-100 h-100">
                 <div className="titre">
-                    <h2 className="text-light mb-4">Welcome!</h2>
+                    <h4 className="text-light mb-4">Welcome!</h4>
                     {/* <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" /> */}
                     <h1 className="text-light mb-4">I am <span className="txt-rotate" data-period="2000" data-rotate='[ "a coder.", "a developer.", "a programmer.", "Maryame Faitah!" ]'></span>
                     </h1>
@@ -91,7 +91,7 @@ function Header() {
                         <a className="fab fa-linkedin-in fa-lg text-white mx-2 hoverLink"></a>
                     </div>
                 </div>
-                <a href="./section1.jsx"> 
+                <a href="#section1"> 
                     <div id="arrow-down">
                         <i className="fas fa-angle-down fa-4x text-white mt-5"></i>
                     </div>
